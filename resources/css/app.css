@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+@layer components{
+    .bg-default{
+        @apply bg-[url('/public/img/semboromap.png')];
+    }
+}
